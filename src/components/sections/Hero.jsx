@@ -40,7 +40,7 @@ Voice AI for regional India
 
           <Reveal delay={0.16}>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-mist">
-              We offer voice based feedback platforms for the small and medium businesses, deal with customer's feedback in a more meaningful way
+              We offer voice based  platforms for the small and medium businesses, deal with customer's feedback in a more meaningful way
             </p>
           </Reveal>
 
