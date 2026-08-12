@@ -9,7 +9,7 @@ export const brand = {
 
 export const nav = [
   { label: "Home", to: "/" },
-  { label: "Value Us ", to: "/Value" },
+  { label: "Values ", to: "/Value" },
   {
     label: "Products",
     to: "/products",
