@@ -13,14 +13,14 @@
     @apply font-display;
   }
   ::selection {
-    background: #2DE8CB;
-    color: #0A0E1B;
+    background: #5B8DEF;
+    color: #F5F7FB;
   }
 }
 
 @layer utilities {
   .text-gradient {
-    background: linear-gradient(90deg, #2DE8CB 0%, #7CF5E1 45%, #FF6A4D 100%);
+    background: linear-gradient(90deg, #3C73D8 0%, #5B8DEF 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

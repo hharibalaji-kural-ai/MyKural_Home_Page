@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <Layout>
       <Hero />
-      <Stats />
-      <FeatureGrid />
+      {/* <Stats /> */}
+      {/* <FeatureGrid /> */}
       <ProductsOverview />
       <CTASection />
     </Layout>

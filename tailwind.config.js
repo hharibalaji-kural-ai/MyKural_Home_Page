@@ -4,16 +4,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        ink: "#0A0E1B",
-        surface: "#121729",
-        surface2: "#1A2036",
-        surface3: "#232B47",
-        signal: "#2DE8CB",
-        "signal-dark": "#17B89E",
-        pulse: "#FF6A4D",
-        "pulse-dark": "#E24E33",
-        mist: "#A6ADC4",
-        paper: "#F6F7FB",
+        ink: "#F5F7FB",
+        surface: "#FFFFFF",
+        surface2: "#EDF3F9",
+        surface3: "#DDEAF7",
+        signal: "#5B8DEF",
+        "signal-dark": "#3C73D8",
+        pulse: "#5B8DEF",
+        "pulse-dark": "#3C73D8",
+        mist: "#5F6F82",
+        paper: "#1A2433",
       },
       fontFamily: {
         display: ["'Space Grotesk'", "sans-serif"],
@@ -22,7 +22,7 @@ export default {
       },
       backgroundImage: {
         "grid-glow":
-          "radial-gradient(circle at 20% 20%, rgba(45,232,203,0.14), transparent 40%), radial-gradient(circle at 80% 0%, rgba(255,106,77,0.10), transparent 35%)",
+          "radial-gradient(circle at 20% 20%, rgba(91,141,239,0.18), transparent 40%), radial-gradient(circle at 80% 0%, rgba(91,141,239,0.12), transparent 35%)",
       },
       keyframes: {
         wave: {

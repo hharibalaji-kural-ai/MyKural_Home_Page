@@ -25,22 +25,22 @@ export default function Hero() {
           <Reveal>
             <span className="mb-6 inline-flex items-center gap-2 rounded-full border border-signal/30 bg-signal/5 px-4 py-1.5 text-xs font-display uppercase tracking-[0.18em] text-signal">
               <span className="h-1.5 w-1.5 rounded-full bg-signal animate-pulse" />
-              Voice AI for Tamil, built enterprise-grade
+Voice AI for regional India
+
             </span>
           </Reveal>
 
           <Reveal delay={0.08}>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold leading-[1.08] text-paper">
-              Every call is a conversation<br className="hidden sm:block" />{" "}
-              <span className="text-gradient">worth understanding.</span>
+<br className="hidden sm:block" />{" "}
+              <span className="text-gradient">              உங்கள் நிறுவனத்திற்கான குரல்.
+</span>
             </h1>
           </Reveal>
 
           <Reveal delay={0.16}>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-mist">
-              Kural AI listens, transcribes and responds in Tamil — turning phone calls into
-              structured feedback and real-time support your team can act on, without a single
-              form or app download.
+              We offer voice based feedback platforms for the small and medium businesses, deal with customer's feedback in a more meaningful way
             </p>
           </Reveal>
 
@@ -50,9 +50,9 @@ export default function Hero() {
                 Book a demo
                 <Icon name="arrow-right" className="w-4 h-4" />
               </Button>
-              <Button to="/products" variant="secondary">
+              {/* <Button to="/products" variant="secondary">
                 Explore products
-              </Button>
+              </Button> */}
             </div>
           </Reveal>
 
@@ -79,10 +79,10 @@ export default function Hero() {
               className="relative rounded-3xl border border-white/10 bg-surface/80 p-8 backdrop-blur-sm shadow-2xl"
             >
               <div className="flex items-center justify-between">
-                <div className="flex items-center gap-2 text-xs text-mist">
+                {/* <div className="flex items-center gap-2 text-xs text-mist">
                   <span className="h-2 w-2 rounded-full bg-pulse animate-pulse" />
                   Live call · 00:42
-                </div>
+                </div> */}
                 <span className="font-tamil text-signal/80 text-sm">குரல்</span>
               </div>
 
@@ -100,10 +100,10 @@ export default function Hero() {
               </div>
 
               <div className="mt-8">
-                <AnimatedWaveform bars={36} height={70} />
+                <AnimatedWaveform bars={36} height={70} color="#5B8DEF" />
               </div>
 
-              <div className="mt-8 space-y-3 rounded-2xl bg-surface2/80 p-4">
+              {/* <div className="mt-8 space-y-3 rounded-2xl bg-surface2/80 p-4">
                 <div className="flex items-center justify-between text-xs">
                   <span className="text-mist">Sentiment</span>
                   <span className="font-display text-signal">Positive · 0.86</span>
@@ -116,7 +116,7 @@ export default function Hero() {
                   <span className="text-mist">Status</span>
                   <span className="font-display text-paper">Routed to CX dashboard</span>
                 </div>
-              </div>
+              </div> */}
             </motion.div>
 
             {/* floating accent chip */}

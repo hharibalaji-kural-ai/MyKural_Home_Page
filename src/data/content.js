@@ -139,11 +139,9 @@ export const products = {
 // Team section removed
 
 export const about = {
-  headline: "We think the phone call is still the most honest interface.",
+  headline: "Built for the Enterprise, Designed for the People",
   body: [
-    "Kural AI started with a simple observation: across Tamil Nadu and much of regional India, people are far more comfortable speaking than typing — especially when they're frustrated, confused, or trying to explain something specific.",
-    "Every text survey, chatbot and app-based ticket form asks customers to translate their experience into someone else's format. We build the opposite: voice AI that meets people in the language and medium they already trust, and turns that conversation into the structured data enterprises need.",
-    "Today, Kural AI powers voice feedback and support for retail, logistics, healthcare and financial services teams who need to hear from customers who were never going to fill out a form.",
+    "Kural bridges the gap between organizations and their customers through the power of voice.",
   ],
   values: [
     { title: "Language first", body: "Tamil isn't a translation layer bolted onto an English model — it's the foundation we build on." },

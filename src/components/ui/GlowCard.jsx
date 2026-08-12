@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
  * echoing the "sound ripple" motif used throughout the site.
  */
 export default function GlowCard({ children, className = "", glow = "signal", as: Tag = "div" }) {
-  const glowColor = glow === "pulse" ? "rgba(255,106,77,0.35)" : "rgba(45,232,203,0.32)";
+  const glowColor = "rgba(47,93,80,0.22)";
 
   return (
     <motion.div

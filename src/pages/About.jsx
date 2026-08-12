@@ -8,13 +8,32 @@ import AnimatedWaveform from "../components/ui/AnimatedWaveform";
 import { about, brand } from "../data/content";
 
 export default function About() {
+  const enterprisePoints = [
+    "Voice for your enterprise’s growth",
+    "Direct from heart feedback from your clients",
+    "Brings out the blind spots which are obvious in existing feedback mechanisms",
+    "No default feedback forced on clients",
+    "No number-based system where clients go for an average or full score by default",
+    "Easy to get complex situation-based feedback when compared to other modes",
+    "Greatly saves time and effort for your clients, especially elderly users wanting less tool dependency, women multitasking at home, and men giving feedback on the move",
+    "Increases user interest, thereby making it a habit to give feedback",
+  ];
+
+  const peoplePoints = [
+    "Get your heartfelt feedback heard loud and clear",
+    "Be a trigger for the change that would benefit a wider community",
+    "No boundaries to your feedback with star counts, default values, or limited choices",
+    "Be a constructive mentor for the organization that you love to see growing",
+    "Become a proud analyst and commentator on your ecosystem",
+  ];
+
   return (
     <Layout>
       <section className="relative overflow-hidden bg-grid-glow py-20 sm:py-28">
         <div className="mx-auto max-w-4xl px-5 sm:px-8 text-center">
           <Reveal>
             <span className="mb-6 inline-flex items-center gap-2 rounded-full border border-signal/30 bg-signal/5 px-4 py-1.5 text-xs font-display uppercase tracking-[0.18em] text-signal">
-              About {brand.name}
+              Value {brand.name}
             </span>
           </Reveal>
           <Reveal delay={0.06}>
@@ -42,16 +61,52 @@ export default function About() {
 
       <section className="py-20">
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
-          <SectionHeading eyebrow="What we hold to" title="Principles that shape the product" />
-          <RevealGroup className="mt-14 grid grid-cols-1 gap-6 md:grid-cols-3">
-            {about.values.map((v) => (
-              <motion.div key={v.title} variants={fadeUpItem}>
-                <GlowCard className="h-full">
-                  <h3 className="font-display text-lg font-semibold text-paper">{v.title}</h3>
-                  <p className="mt-3 text-sm leading-relaxed text-mist">{v.body}</p>
-                </GlowCard>
-              </motion.div>
-            ))}
+          <SectionHeading
+            eyebrow="Why Kural AI"
+            title="Empower your business with actionable, nuanced feedback."
+            body="Voice-first feedback makes it easy for people to share what really matters — without friction, defaults, or survey fatigue."
+            align="left"
+            className="mb-14"
+          />
+
+          <RevealGroup className="grid gap-6 lg:grid-cols-2">
+            <motion.div variants={fadeUpItem}>
+              <GlowCard className="h-full border-signal/20 bg-surface/90">
+                <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-signal/30 bg-signal/10 px-3 py-1 text-[10px] font-display uppercase tracking-[0.2em] text-signal">
+                  For Enterprises
+                </div>
+                <h3 className="font-display text-2xl font-semibold text-paper">
+                  Voice for your enterprise’s growth
+                </h3>
+                <ul className="mt-6 space-y-3 text-sm leading-relaxed text-mist">
+                  {enterprisePoints.map((point) => (
+                    <li key={point} className="flex gap-3">
+                      <span className="mt-1 text-signal">•</span>
+                      <span>{point}</span>
+                    </li>
+                  ))}
+                </ul>
+              </GlowCard>
+            </motion.div>
+
+            <motion.div variants={fadeUpItem}>
+              <GlowCard className="h-full border-signal/20 bg-surface/90">
+                <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-signal/30 bg-signal/10 px-3 py-1 text-[10px] font-display uppercase tracking-[0.2em] text-signal">
+                  For People
+                </div>
+                <h3 className="font-display text-2xl font-semibold text-paper">
+                  Share your voice without constraints or friction.
+                </h3>
+                <ul className="mt-6 space-y-3 text-sm leading-relaxed text-mist">
+                  {peoplePoints.map((point) => (
+                    <li key={point} className="flex gap-3">
+                      <span className="mt-1 text-signal">•</span>
+                      <span>{point}</span>
+                    </li>
+                  ))}
+                </ul>
+              </GlowCard>
+            </motion.div>
           </RevealGroup>
         </div>
       </section>

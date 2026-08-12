@@ -10,11 +10,8 @@ const ICONS = ["waveform", "chart", "layers", "shield", "clock", "globe", "users
  * waveform trace), collapsing to a single clean column on mobile.
  */
 export default function ZigzagBenefits({ items, accent = "signal" }) {
-  const accentColor = accent === "pulse" ? "#FF6A4D" : "#2DE8CB";
-  const accentClasses =
-    accent === "pulse"
-      ? "text-pulse border-pulse/30 bg-pulse/5"
-      : "text-signal border-signal/30 bg-signal/5";
+  const accentColor = "#2F5D50";
+  const accentClasses = "text-signal border-signal/30 bg-signal/5";
 
   return (
     <div className="relative">

@@ -6,11 +6,11 @@ const base =
 
 const variants = {
   primary:
-    "bg-signal text-ink px-6 py-3 shadow-[0_0_0_0_rgba(45,232,203,0.45)] hover:shadow-[0_0_28px_4px_rgba(45,232,203,0.45)] hover:-translate-y-0.5",
+    "bg-signal text-ink px-6 py-3 shadow-[0_0_0_0_rgba(91,141,239,0.25)] hover:shadow-[0_0_22px_4px_rgba(91,141,239,0.18)] hover:-translate-y-0.5",
   secondary:
-    "bg-transparent text-paper px-6 py-3 border border-white/20 hover:border-signal/70 hover:bg-white/5",
+    "bg-transparent text-paper px-6 py-3 border border-signal/20 hover:border-signal/60 hover:bg-signal/5",
   pulse:
-    "bg-pulse text-white px-6 py-3 shadow-[0_0_0_0_rgba(255,106,77,0.45)] hover:shadow-[0_0_28px_4px_rgba(255,106,77,0.4)] hover:-translate-y-0.5",
+    "bg-pulse text-ink px-6 py-3 shadow-[0_0_0_0_rgba(91,141,239,0.25)] hover:shadow-[0_0_22px_4px_rgba(91,141,239,0.18)] hover:-translate-y-0.5",
   ghost: "bg-transparent text-mist hover:text-signal px-2 py-1",
 };
 
