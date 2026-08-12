@@ -9,7 +9,7 @@ export const brand = {
 
 export const nav = [
   { label: "Home", to: "/" },
-  { label: "About Us", to: "/about" },
+  { label: "Value Us ", to: "/Value" },
   {
     label: "Products",
     to: "/products",
@@ -59,8 +59,9 @@ export const products = {
     headline: "Voice feedback that reaches every customer, in their own language",
     summary:
       "Kural 1-Way is an automated outbound voice service that collects structured customer feedback — in any regional language, at any scale, with no app required.",
-    description:
-      "Instead of a text survey nobody finishes, Kural 1-Way places a short, natural-sounding voice call after a purchase, delivery or service visit. Customers respond in their own words, in Tamil, at their own pace. The system listens, asks a smart follow-up when an answer is vague, and closes the loop — no call-center headcount required.",
+    // description:
+    //   "Instead of a text survey nobody finishes, Kural 1-Way places a short, natural-sounding voice call after a purchase, delivery or service visit. Customers respond in their own words, in Tamil, at their own pace. The system listens, asks a smart follow-up when an answer is vague, and closes the loop — no call-center headcount required.",
+    
     enterpriseBenefits: [
       {
         title: "Feedback at true scale",

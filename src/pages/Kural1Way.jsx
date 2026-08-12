@@ -53,25 +53,25 @@ export default function Kural1Way() {
                 className="relative rounded-3xl border border-white/10 bg-surface/80 p-8 backdrop-blur-sm shadow-2xl"
               >
                 <div className="flex items-center justify-between text-xs text-mist">
-                  <span>Outbound feedback call</span>
-                  <span className="font-tamil text-signal/80">தமிழ்</span>
+                  {/* <span>Outbound feedback call</span> */}
+                  <span className="font-tamil text-signal/80">kural</span>
                 </div>
                 <div className="mt-6 space-y-3">
-                  <div className="rounded-xl bg-surface2/80 p-4 text-sm text-mist">
+                  {/* <div className="rounded-xl bg-surface2/80 p-4 text-sm text-mist">
                     "வணக்கம்! உங்கள் கடந்த வாரம் டெலிவரி எப்படி இருந்தது?"
-                  </div>
-                  <div className="ml-6 rounded-xl bg-signal/10 p-4 text-sm text-paper">
+                  </div> */}
+                  {/* <div className="ml-6 rounded-xl bg-signal/10 p-4 text-sm text-paper">
                     "நல்லா இருந்துச்சு, ஆனா கொஞ்சம் தாமதமா வந்துச்சு."
-                  </div>
+                  </div> */}
                 </div>
                 <div className="mt-6">
                   <AnimatedWaveform bars={30} height={50} />
                 </div>
                 <div className="mt-6 flex items-center justify-between rounded-xl bg-surface2/80 px-4 py-3 text-xs">
-                  <span className="text-mist">Feedback captured</span>
-                  <span className="flex items-center gap-1 font-display text-signal">
+                  {/* <span className="text-mist">Feedback captured</span> */}
+                  {/* <span className="flex items-center gap-1 font-display text-signal">
                     <Icon name="check" className="w-3.5 h-3.5" /> Logged to CRM
-                  </span>
+                  </span> */}
                 </div>
               </motion.div>
             </Reveal>
@@ -84,21 +84,23 @@ export default function Kural1Way() {
       </div> */}
 
       {/* How it works */}
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="mx-auto max-w-4xl px-5 sm:px-8 text-center">
           <Reveal>
             <p className="text-lg leading-relaxed text-mist">{p.description}</p>
           </Reveal>
         </div>
-      </section>
+      </section> */}
 
       {/* Enterprise Benefits — zigzag */}
       <section className="py-20">
         <div className="mx-auto max-w-6xl px-5 sm:px-8">
           <SectionHeading
             eyebrow="For your organization"
-            title="Enterprise Benefits"
-            body="Built to plug into the systems and reporting your CX and operations teams already run on."
+            title="Client Benefits"
+            body="What Kural 1-Way does for the team running the feedback program.
+
+"
           />
           <div className="mt-16">
             <ZigzagBenefits items={p.enterpriseBenefits} accent="signal" />
@@ -110,21 +112,21 @@ export default function Kural1Way() {
       <section className="py-20 bg-surface/30">
         <div className="mx-auto max-w-6xl px-5 sm:px-8">
           <SectionHeading
-            eyebrow="For the person on the call"
+            eyebrow="For your customer"
             title="End-User Benefits"
-            body="Designed so responding feels like a conversation, never an obligation."
+            body="What the experience feels like for the person receiving the call."
           />
           <div className="mt-16">
             <ZigzagBenefits items={p.endUserBenefits} accent="pulse" />
           </div>
         </div>
       </section>
-
+{/* 
       <CTASection
         eyebrow="Kural 1-Way"
         title="Start hearing from customers who never fill out a form."
         body="Pilot Kural 1-Way on a single flow — post-purchase, post-delivery, or post-visit — and see results within a week."
-      />
+      /> */}
     </Layout>
   );
 }
