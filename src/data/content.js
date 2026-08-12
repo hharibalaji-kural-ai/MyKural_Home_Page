@@ -107,29 +107,23 @@ export const products = {
       "Where Kural 1-Way listens and records, Kural 2-Way talks back. It picks up support calls, understands intent in Tamil in real time, pulls live data from your systems to answer questions, and keeps the thread of a conversation across multiple turns — so customers never have to repeat themselves.",
     capabilities: [
       {
-        title: "Real-time back-and-forth",
-        body: "Sub-2-second response latency keeps the conversation feeling like a call, not a queue.",
+        title: "Real-time conversation",
+        body: "Understands and responds mid-call, handling interruptions, follow-up questions, and topic changes naturally.",
       },
       {
-        title: "Context that carries across turns",
-        body: "Kural 2-Way remembers what was said two questions ago, so callers never repeat their order number.",
+        title: "Multi-turn memory",
+        body: "Keeps track of what was said earlier in the call, so customers never have to repeat themselves.",
+      },
+      
+      {
+        title: "Seamless human handoff",
+        body: "When a query needs a person, the call transfers with a transcript and summary already prepared.",
       },
       {
-        title: "Live system lookups",
-        body: "Connects to order, billing and CRM systems to answer with real account data, not a script.",
+        title: "Query resolution",
+        body: "Answers common support questions directly and routes complex cases to a human agent with full context.",
       },
-      {
-        title: "Human handoff, done well",
-        body: "When a query needs a person, the agent transfers the call with a full summary already attached.",
-      },
-      {
-        title: "Always-on coverage",
-        body: "Handles after-hours and peak-load call spikes without a queue or a hold-music apology.",
-      },
-      {
-        title: "Continuously learning",
-        body: "Every resolved and escalated call feeds back into the model, sharpening accuracy over time.",
-      },
+      
     ],
   },
 };

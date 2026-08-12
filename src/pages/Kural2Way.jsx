@@ -96,27 +96,27 @@ export default function Kural2Way() {
         </div>
       </section>
 
-      <div className="mx-auto max-w-7xl px-5 sm:px-8">
+      {/* <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <WaveformLine className="h-10" color="#FF6A4D" />
-      </div>
+      </div> */}
 
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="mx-auto max-w-4xl px-5 sm:px-8 text-center">
           <Reveal>
             <p className="text-lg leading-relaxed text-mist">{p.description}</p>
           </Reveal>
         </div>
-      </section>
+      </section> */}
 
       {/* Capabilities grid */}
       <section className="py-20 bg-surface/30">
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <SectionHeading
-            eyebrow="What it can do"
-            title="Support that holds context, not just a script"
-            body="Kural 2-Way is built for the messy, multi-turn reality of a real support call."
+            eyebrow="Capabilities"
+            title="Built for live conversation, not scripted prompts"
+            body="Kural 2-Way goes beyond menu-driven IVR — it listens, understands intent, and responds like a trained support agent would."
           />
-          <RevealGroup className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <RevealGroup className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-2">
             {p.capabilities.map((c, i) => (
               <motion.div key={c.title} variants={fadeUpItem}>
                 <GlowCard glow="pulse" className="h-full">
@@ -131,13 +131,46 @@ export default function Kural2Way() {
           </RevealGroup>
         </div>
       </section>
+            {/* Stats / Why regional voice matters section */}
+      <section className="py-20">
+        <div className="mx-auto max-w-7xl px-5 sm:px-8">
+          <div className="grid gap-12 lg:grid-cols-2 items-center">
+            <Reveal>
+              <SectionHeading
+                eyebrow="Why regional voice matters here"
+                title="Support conversations are where language gaps hurt the most"
+                body="A confused customer on a billing call, unable to explain their issue in English, is a resolved-in-one-call opportunity lost. Kural 2-Way removes that friction by conversing fluently in the customer's own language."
+                align="left"
+              />
+            </Reveal>
+            <Reveal direction="left">
+              <div className="rounded-3xl border border-white/10 bg-surface/80 p-8 backdrop-blur-sm shadow-xl">
+                <dl className="grid grid-cols-2 gap-8">
+                  <Stat label="First-call resolution lift" value="Higher" />
+                  <Stat label="Avg. hold time" value="None" />
+                  <Stat label="Languages" value="Regional, native" />
+                  <Stat label="Availability" value="24/7" />
+                </dl>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
 
-      <CTASection
+      {/* <CTASection
         eyebrow="Kural 2-Way"
         title="Give your support line a Tamil-speaking voice agent."
         body="Deploy Kural 2-Way on overflow, after-hours, or a single high-volume query type — and expand from there."
         primaryLabel="Book a demo"
-      />
+      /> */}
     </Layout>
+  );
+}
+function Stat({ label, value }) {
+  return (
+    <div>
+      <dt className="font-display text-xs uppercase tracking-[0.18em] text-mist">{label}</dt>
+      <dd className="mt-2 font-display text-2xl font-semibold text-paper">{value}</dd>
+    </div>
   );
 }
