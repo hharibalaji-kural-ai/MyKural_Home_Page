@@ -55,47 +55,44 @@ export const products = {
   kural1: {
     id: "kural-1-way",
     name: "Kural 1-Way",
-    eyebrow: "Voice Feedback Collection",
-    headline: "Let customers speak their mind — literally.",
+    eyebrow: "Kural 1-Way",
+    headline: "Voice feedback that reaches every customer, in their own language",
     summary:
-      "Kural 1-Way is an outbound and IVR voice service that calls or answers customers in Tamil, asks the right follow-up questions, and turns the conversation into feedback your team can act on the same day.",
+      "Kural 1-Way is an automated outbound voice service that collects structured customer feedback — in any regional language, at any scale, with no app required.",
     description:
       "Instead of a text survey nobody finishes, Kural 1-Way places a short, natural-sounding voice call after a purchase, delivery or service visit. Customers respond in their own words, in Tamil, at their own pace. The system listens, asks a smart follow-up when an answer is vague, and closes the loop — no call-center headcount required.",
     enterpriseBenefits: [
       {
-        title: "3x higher response rates",
-        body: "Voice calls in a customer's own language consistently outperform SMS and app-based surveys, especially outside metro markets.",
+        title: "Feedback at true scale",
+        body: "Run thousands of outbound feedback calls per day without a call-center headcount increase.",
       },
       {
-        title: "Real-time dashboards",
-        body: "Every call lands in a live dashboard with sentiment scores, keyword trends and drop-off points — searchable the moment the call ends.",
+        title: "Language-matched response rates",
+        body: "Calling customers in their own language measurably lifts pickup and completion rates versus generic IVR.",
       },
       {
-        title: "Plug into your stack",
-        body: "Webhooks and REST APIs push structured results straight into your CRM, helpdesk or data warehouse.",
+        title: "Structured, analysis-ready data",
+        body: "Every call resolves into clean, structured responses — ratings, categories, transcripts — ready for your dashboards.",
       },
       {
-        title: "Predictable, usage-based pricing",
-        body: "Pay per completed call, not per seat — costs scale with the feedback you actually collect.",
+        title: "Fast deployment",
+        body: "Give us your survey or feedback script once; we localize it across every regional language you operate in.",
       },
     ],
     endUserBenefits: [
       {
-        title: "Speak, don't type",
-        body: "Answer in Tamil, in full sentences, without hunting for the right multiple-choice option.",
+        title: "No app, no literacy required",
+        body: "Customers answer a normal phone call and speak naturally — nothing to download, read, or type.",
       },
       {
-        title: "Under 90 seconds",
-        body: "A short, respectful call that ends the moment the customer has said what they need to.",
+        title: "Short, respectful of their time",
+        body: "Calls are designed to be brief and conversational, not a long scripted questionnaire read at them.",
       },
       {
-        title: "Call back on their time",
-        body: "Missed calls are automatically retried at a better hour, never mid-workday.",
+        title: "Available on any phone",
+        body: "Works on basic feature phones as well as smartphones — no data connection needed.",
       },
-      {
-        title: "Heard, not surveyed",
-        body: "Natural conversation instead of a form makes it feel like being asked, not audited.",
-      },
+      
     ],
   },
   kural2: {

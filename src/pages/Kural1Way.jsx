@@ -79,9 +79,9 @@ export default function Kural1Way() {
         </div>
       </section>
 
-      <div className="mx-auto max-w-7xl px-5 sm:px-8">
+      {/* <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <WaveformLine className="h-10" />
-      </div>
+      </div> */}
 
       {/* How it works */}
       <section className="py-20">

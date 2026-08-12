@@ -6,7 +6,7 @@ import { WaveformLine } from "../ui/AnimatedWaveform";
 export default function Footer() {
   return (
     <footer className="relative border-t border-white/10 bg-surface/60">
-      <WaveformLine className="absolute -top-6 left-0 right-0 h-6 px-6 opacity-40" />
+      {/* <WaveformLine className="absolute -top-6 left-0 right-0 h-6 px-6 opacity-40" /> */}
       <div className="mx-auto max-w-7xl px-5 sm:px-8 py-14">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-4">
           <div className="md:col-span-2">

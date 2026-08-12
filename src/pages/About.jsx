@@ -110,12 +110,12 @@ export default function About() {
           </RevealGroup>
         </div>
       </section>
-
+{/* 
       <CTASection
         eyebrow="Come talk to us"
         title="Curious how Kural AI would sound on your calls?"
         body="We'll walk you through a real Tamil call, start to finish, using your own use case."
-      />
+      /> */}
     </Layout>
   );
 }
